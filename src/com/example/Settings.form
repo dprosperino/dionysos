@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Settings [Dionysos]"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="BTN_SaveSettings" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="LBL_StartingDay" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="COMBox_EndingDay" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBL_EndingDay" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="COMBox_StartingDay" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="LBL_AmountVegan" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBL_AmountVegetarian" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBL_AmountFish" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBL_AmountMeat" min="-2" max="-2" attributes="0"/>
+                  <Component id="CHKBox_Deepfrozen" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBL_Deepfrozen" min="-2" max="-2" attributes="0"/>
+                  <Component id="TXT_AmountMeat" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="TXT_AmountFish" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="TXT_AmountVegetarian" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="TXT_AmountVegan" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LBL_StartingDay" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBL_Deepfrozen" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="CHKBox_Deepfrozen" min="-2" max="-2" attributes="0"/>
+                  <Component id="COMBox_StartingDay" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LBL_EndingDay" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBL_AmountMeat" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="COMBox_EndingDay" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TXT_AmountMeat" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="LBL_AmountFish" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TXT_AmountFish" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="LBL_AmountVegetarian" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TXT_AmountVegetarian" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="LBL_AmountVegan" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TXT_AmountVegan" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
+              <Component id="BTN_SaveSettings" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="BTN_SaveSettings">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save Settings"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTN_SaveSettingsActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBL_StartingDay">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Starting day of plan"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="COMBox_StartingDay">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="Monday"/>
+            <StringItem index="1" value="Tuesday"/>
+            <StringItem index="2" value="Wednesday"/>
+            <StringItem index="3" value="Thursday"/>
+            <StringItem index="4" value="Friday"/>
+            <StringItem index="5" value="Saturday"/>
+            <StringItem index="6" value="Sunday"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBL_EndingDay">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ending day of plan"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="COMBox_EndingDay">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="Monday"/>
+            <StringItem index="1" value="Tuesday"/>
+            <StringItem index="2" value="Wednesday"/>
+            <StringItem index="3" value="Thursday"/>
+            <StringItem index="4" value="Friday"/>
+            <StringItem index="5" value="Saturday"/>
+            <StringItem index="6" value="Sunday"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="6" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBL_Deepfrozen">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Deep frozen food?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="CHKBox_Deepfrozen">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add deep frozen food to plan"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBL_AmountMeat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of dishes with meat"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TXT_AmountMeat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBL_AmountFish">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of dishes with fish"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TXT_AmountFish">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBL_AmountVegetarian">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of vegetarian dishes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TXT_AmountVegetarian">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBL_AmountVegan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Amount of vegan dishes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TXT_AmountVegan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
